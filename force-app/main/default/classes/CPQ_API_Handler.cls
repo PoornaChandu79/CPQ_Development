@@ -64,7 +64,7 @@ public class CPQ_API_Handler {
         // Debug statements for response details
         System.debug(res.toString());
         System.debug(res.getBody());
-        System.debug('res' + res);
+        System.debug('res:::' + res);
         System.debug('Response body: ' + res.getBody());
         
         // Save the callout response to a custom field on the quote (Optional)
